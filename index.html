@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  	<title>Демонтаж | Напольное покрытие | Ламинат</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<meta content="Демонтаж бетонных конструкций | Кладка ламината | Оставляйте заяку на сотрудничество" name="description">
+	<meta content="Работы по ремонту квартир" name="keywords">
+    <meta property="og:image" content="images/remont-kvartir.jpg" />
+	<link rel="icon" href="images/remont-kvartir.jpg" type="image/x-icon">
+
+
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,700' rel='stylesheet' type='text/css'>
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+	<link rel="stylesheet" href="css/style.css">
+
+	</head>
+	<body>
+	<section class="ftco-section">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-lg-10">
+					<div class="wrapper">
+						<div class="row no-gutters">
+							<div class="col-md-6 d-flex align-items-stretch">
+								<div class="contact-wrap w-100 p-md-5 p-4 py-5">
+									<h3 class="mb-4">Оставьте заявку и мы свяжемся с вами!</h3>
+									<div id="form-message-warning" class="mb-4"></div> 
+				      		<div id="form-message-success" class="mb-4">
+								Ваше сообщение успешно отправлено!
+				      		</div>
+									<form method="POST" id="contactForm" name="contactForm" class="contactForm">
+										<div class="row">
+											<div class="col-md-12">
+												<div class="form-group">
+													<input id="sendName" type="name" class="form-control" name="name" id="name" placeholder="Имя">
+												</div>
+											</div>
+											<label class="hidden_form_item">
+												<textarea id="messageInput" name="topic_message">Заявка с сайта https://ремонт53.рф</textarea>
+												<div class="label__text">
+												</div>
+											</label>
+											<div class="col-md-12">
+												<div class="form-group">
+													<input id="sendTel" type="tel" name="phone"  class="form-input form-control" placeholder="Номер телефона">
+												</div>
+											</div>
+											<div class="col-md-12">
+												<div class="form-group">
+													<textarea name="pass_message" class="form-control" id="messageInputpass" cols="30" rows="6" placeholder="Ваше сообщение"></textarea>
+												</div>
+											</div>
+											<div class="col-md-12">
+												<div class="form-group">
+													<input type="submit" value="Отправить" class="btn btn-primary" id="sendButton">
+													<div class="submitting"></div>
+												</div>
+											</div>
+										</div>
+									</form>
+								</div>
+							</div>
+							<div class="col-md-6 d-flex align-items-stretch">
+								<div class="info-wrap w-100 p-md-5 p-4 py-5 img">
+									<h3>Дополнительная информация и контакты</h3>
+									<p class="mb-4">Для каждого клиента у нас индивидуальный подход и ценовая политика.</p>
+				        	<div class="dbox w-100 d-flex align-items-start">
+				        		<div class="icon d-flex align-items-center justify-content-center">
+				        			<span class="fa fa-map-marker"></span>
+				        		</div>
+				        		<div class="text pl-3">
+					            <p><span>Локации на которых мы работаем:</span> Новгородская область, <br>Великий Новгород</p>
+					          </div>
+				          </div>
+				        	<div class="dbox w-100 d-flex align-items-center">
+				        		<div class="icon d-flex align-items-center justify-content-center">
+				        			<span class="fa fa-phone"></span>
+				        		</div>
+				        		<div class="text pl-3">
+					            <p><span>Телефон:</span> <a href="tel:+79524881656">+7 (952) 488-16-56</a></p>
+					          </div>
+				          </div>
+				        	<div class="dbox w-100 d-flex align-items-center">
+				        		<div class="icon d-flex align-items-center justify-content-center">
+				        			<span class="fa fa-paper-plane"></span>
+				        		</div>
+				        		<div class="text pl-3">
+					            <p><span>Телеграм:</span> <a href="https://t.me/+79524881656">+7 (952) 488-16-56 - Александр</a></p>
+					          </div>
+				          </div>
+				        	<div class="dbox w-100 d-flex align-items-center">
+				        		<div class="icon d-flex align-items-center justify-content-center">
+				        			<span class="fa fa-globe"></span>
+				        		</div>
+				        		<div class="text pl-3">
+					            <p><span>Сайт</span> <a href="https://ремонт53.рф" target="_blank">Ремонт53.рф</a></p>
+					          </div>
+				          </div>
+			          </div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<script src="js/jquery-371min.js"></script>
+	<script src="js/jquerymaskedinputmin.js"></script>
+	<script>
+		$("input[name='phone']").mask("+7(999) 999-9999");
+	  
+	  $(".bezvalue_wrap").html("<input class='bezvalue'  type='text' name='bezvalue' value='' />");	 
+	   $(".bezvalue").val("Dolly Duck");
+	   $(".bezvalue").hide();
+	   
+	   
+	   $('.datatitle').on('click',function(){
+	  var mysuperdata = $(this).attr('data-title');
+	  $('#titlezagalovor').html(mysuperdata);
+	   
+	  });
+	  </script>
+
+	<script src="js/jquery.min.js"></script>
+  <script src="js/popper.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.validate.min.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/form_for_tg.js" defer></script>
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+	</body>
+</html>
+
